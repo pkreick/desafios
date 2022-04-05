@@ -1,8 +1,13 @@
 import './App.css';
 
+import NavBar from './components/NavBar';
+
 function App() {
   return (
-    <h1>Hola</h1>
+    <>
+    <NavBar />
+    <button>Hola</button>
+    </>
   );
 }
 
